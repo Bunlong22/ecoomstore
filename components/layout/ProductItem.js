@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 
-export default function ProductItem(product) {
+export default function ProductItem({product}) {
   return (
     // Create Card components in homepage
     <div className="card">
@@ -31,3 +31,4 @@ export default function ProductItem(product) {
   </div>
   )
 }
+
