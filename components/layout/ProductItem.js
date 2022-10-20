@@ -7,7 +7,7 @@ export default function ProductItem({product}) {
   return (
     // Create Card components in homepage
     <div className="card">
-    <Link href={`/product/${product.slug}`}>
+    <Link href={`/products/${product.slug}`}>
       <a>
         <img
           src={product.image}
@@ -17,7 +17,7 @@ export default function ProductItem({product}) {
       </a>
     </Link>
     <div className="flex flex-col items-center justify-center p-5">
-      <Link href={`/product/${product.slug}`}>
+      <Link href= {`/products/${product.slug}`}>
         <a>
           <h2 className="text-lg">{product.name}</h2>
         </a>

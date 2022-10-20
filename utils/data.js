@@ -72,6 +72,19 @@ const data={
           countInStock: 20,
           description: 'A popular pants',
         },
+        {
+          
+          name: 'Classic Hoodie',
+          slug: 'classic-hoodie',
+          category: 'hoodie',
+          image: '/images/pants3.jpg',
+          price: 120,
+          brand: 'Addias',
+          rating: 3.0,
+          numReviews: 20,
+          countInStock: 30,
+          description: 'Very recommend!!',
+        }
       ],
     };
     
