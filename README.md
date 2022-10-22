@@ -37,4 +37,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 22/10/2022
 add to cart  funtion error: can not use multiple children: https://nextjs.org/docs/messages/link-multiple-children
 duplicate return function and feature will also lead to error
+install js cookies to still get data when refresh page
 
