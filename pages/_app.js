@@ -1,7 +1,7 @@
 import '../styles/globals.css'
-import { StoreProvider } from '../utils/store'
+import { StoreProvider } from '../utils/Store';
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+   <Component {...pageProps} />
   return (
     <StoreProvider>
       <Component {...pageProps} />

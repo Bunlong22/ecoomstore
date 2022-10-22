@@ -2,10 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import Layout from '../../components/layout/Layout';
 import data from '../../utils/data';
-import { Store } from '../../utils/store';
+import { Store } from '../../utils/Store';
 
 export default function ProductScreen() {
   const { state, dispatch } = useContext(Store);
@@ -26,6 +26,7 @@ export default function ProductScreen() {
 
     dispatch({ type: 'CART_ADD_ITEM', payload: { ...product, quantity } });
   };
+
 
 
   // 19/10/2022
@@ -70,7 +71,6 @@ export default function ProductScreen() {
               <div>Status</div>
               <div>{product.countInStock > 0 ? 'In stock' : 'Out of Stock'}</div>
             </div>
-            <button className="primary-button w-full">Add to cart</button>
             <button
               className="primary-button w-full"
               onClick={addToCartHandler}
