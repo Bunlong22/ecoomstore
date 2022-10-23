@@ -26,7 +26,7 @@ import dynamic from 'next/dynamic';
       <h1 className="mb-10 text-xl">Shopping Cart</h1>
       {cartItems.length === 0 ? (
         <div className='mb-3 text-center'>
-          There are no Products in Cart. <Link href="/"><a className='ml-3'> Let's Go Shopping!
+          There are no Products in Cart. <Link href="/"><a className='ml-3'>Go Shopping
             </a></Link>
         </div>
       ):
@@ -96,7 +96,8 @@ import dynamic from 'next/dynamic';
               </li>
               <li>
                 <button
-                  onClick={() => router.push('/shipping')}
+                //check if user login if True then direct user to shipping, false then keep user in login
+                  onClick={() => router.push('LoginForm?redirect=/shipping')}
                   className="primary-button w-full"
                 >
                   Check Out
