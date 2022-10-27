@@ -27,6 +27,9 @@ export default function Layout({title, children}) {
               <a className="text-xl font-bold">EccomStore</a>
             </Link>
             <div>
+              <Link href="/">
+              <a className="p-2">Products</a>
+              </Link>
               <Link href="/cart">
   
                 <a className="p-2">
@@ -38,7 +41,7 @@ export default function Layout({title, children}) {
                   )}
                 </a>
               </Link>
-              <Link href="/login">
+              <Link href="/LoginForm">
                 <a className="p-2">Login</a>
               </Link>
             </div>
