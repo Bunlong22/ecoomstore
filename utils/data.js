@@ -98,26 +98,79 @@ const data={
           countInStock: 30,
           description: '60% Gaming Keyboard with Analog Optical Switches',
         },
+        {
+ 
+          name: 'RAZER VIPER MINI',
+          slug: 'razer-viper-mini',
+          category: 'mouse',
+          image: '/images/Untitled-1-330x409.jpg',
+          price: 29,
+          brand: 'Razer',
+          rating: 3.0,
+          numReviews: 20,
+          countInStock: 10,
+          description: 'GAMING MOUSE',
+  
+        },
+        {
+   
+          name: 'LOGITECH G502 HERO ',
+          slug: 'loitic-g502-hero',
+          category: 'mouse',
+          image: '/images/5402-4-330x409.jpg',
+          price: 79,
+          brand: 'Logitic',
+          rating: 3.0,
+          numReviews: 20,
+          countInStock: 10,
+          description: 'HIGH PERFORMANCE GAMING MOUSE',
+  
+        },
+        {
+   
+          name: 'LOGITECH G102 LIGHTSYNC',
+          slug: 'logitic-g102-lightsync-white',
+          category: 'mouse',
+          image: '/images/white-4-330x409.jpg',
+          price: 21,
+          brand: 'Logitic',
+          rating: 2.0,
+          numReviews: 50,
+          countInStock: 5,
+          description: 'GAMING MOUSE',
+  
+        },
+        {
+   
+          name: 'ASUS P504 ROG GLADIUS II',
+          slug: 'asus-P504-rog-gladius-II',
+          category: 'mouse',
+          image: '/images/ASUS P504-330x409.jpg',
+          price: 70,
+          brand: 'Asus',
+          rating: 4.0,
+          numReviews: 10,
+          countInStock: 5,
+          description: 'GAMING MOUSE',
+  
+        },
+        {
+   
+          name: 'RAZER LANCEHEAD ',
+          slug: 'razer-lancehead-tournament-edition',
+          category: 'mouse',
+          image: '/images/tournament edition-1-330x409.jpg',
+          price: 59,
+          brand: 'Razer',
+          rating: 5.0,
+          numReviews: 15,
+          countInStock: 12,
+          description: 'GAMING MOUSE( 16,000DPI,RGB) TOURNAMENT EDITION',
+  
+        },
       
       ],
       // mouse
-      kays:
-      [
-        {
- 
-        name: 'Logitic Mouse ',
-        slug: 'logitic-mouse',
-        category: 'mouse',
-        image: '/images/61UxfXTUyvL._SL1500_.jpg',
-        price: 64,
-        brand: 'Logitic',
-        rating: 3.0,
-        numReviews: 20,
-        countInStock: 10,
-        description: '60% Gaming Keyboard with Analog Optical Switches',
-
-      }
-    ],
 
     };
     

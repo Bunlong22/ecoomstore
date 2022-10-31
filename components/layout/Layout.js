@@ -30,6 +30,9 @@ export default function Layout({title, children}) {
               <Link href="/">
               <a className="p-2">Products</a>
               </Link>
+              <Link href="/aboutuspage">
+              <a className="p-2">About US</a>
+              </Link>
               <Link href="/cart">
   
                 <a className="p-2">
