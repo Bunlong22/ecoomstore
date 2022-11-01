@@ -39,3 +39,5 @@ add to cart  funtion error: can not use multiple children: https://nextjs.org/do
 duplicate return function and feature will also lead to error
 install js cookies to still get data when refresh page
 
+npm run build to deploy new changes
+npm run dev to view building process
